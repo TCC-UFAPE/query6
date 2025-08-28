@@ -186,7 +186,7 @@ def analyze_code_files(root_dir, model_name, output_excel_path):
         print(f"Erro ao salvar o arquivo Excel: {e}")
 
 if __name__ == "__main__":
-    repo_root_directory = os.path.join("chromium", "net", "base")
+    repo_root_directory = os.path.join("chromium_media")
 
     if not os.path.isdir(repo_root_directory):
         print(f"Erro: Diretório base para os códigos não encontrado: '{repo_root_directory}'")
